@@ -31,3 +31,12 @@ nav a {
 nav a:hover {
   background: #0eb12c;
 }
+
+.lista-gostos {
+    list-style: none;      /* remove bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex;         /* deixa os itens lado a lado */
+    gap: 12px;             /* espaço entre os itens */
+    align-content: center;
+}
