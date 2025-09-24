@@ -1,10 +1,32 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+/* Define fonte padrão */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
 }
 
+/* Estilo do menu horizontal */
 nav ul {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin: 20px 0;
+  list-style: none;      /* remove bolinhas da lista */
+  margin: 0;
+  padding: 0;
+  display: flex;         /* deixa os itens lado a lado */
+  gap: 12px;             /* espaço entre os itens */
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 18px;
+  text-decoration: none;
+  background: #3498db;
+  color: #fff;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #217dbb;
 }
