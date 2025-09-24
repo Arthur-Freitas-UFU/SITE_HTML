@@ -11,6 +11,7 @@ nav ul {
   padding: 0;
   display: flex;         /* deixa os itens lado a lado */
   gap: 12px;             /* espaço entre os itens */
+  align-content: center;
 }
 
 nav li {
@@ -21,12 +22,12 @@ nav a {
   display: inline-block;
   padding: 10px 18px;
   text-decoration: none;
-  background: #3498db;
+  background: #12c60f;
   color: #fff;
   border-radius: 6px;
   transition: background 0.3s;
 }
 
 nav a:hover {
-  background: #217dbb;
+  background: #0eb12c;
 }
